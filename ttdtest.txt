@@ -10,7 +10,7 @@ local mine = Instance.new("TextButton")
 local closebutton = Instance.new("TextButton")
 local mini = Instance.new("TextButton")
 local mini2 = Instance.new("TextButton")
-local UIStroke = TextLabel.Instance.new("UIStroke")
+
 
 main.Name = "main"
 main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
