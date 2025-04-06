@@ -10,6 +10,7 @@ local mine = Instance.new("TextButton")
 local closebutton = Instance.new("TextButton")
 local mini = Instance.new("TextButton")
 local mini2 = Instance.new("TextButton")
+local UIStroke = TextLabel.Instance.new("UIStroke")
 
 main.Name = "main"
 main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -61,7 +62,6 @@ TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 20.000
 TextLabel.TextWrapped = true
-TextLabel.TextStokeColor3 = Color3.fromRGB(0, 0, 0)
 
 plus.Name = "plus"
 plus.Parent = Frame
